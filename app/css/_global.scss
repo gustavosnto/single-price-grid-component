@@ -1,3 +1,12 @@
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --light-cyan: #4ABEBD;
+    --bright-yellow:  hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+    --white: #FFF;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,11 +16,12 @@
 
 body {
     box-sizing: inherit;
+    background-color: var(--light-gray);
 }
 
 .container {
     width: calc(100% - 40px);
-    max-width: 1110px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 0 20px;
     position: absolute;

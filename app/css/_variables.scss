@@ -1,0 +1,73 @@
+section.box-content {
+    & .container {
+        display: flex;
+        flex-wrap: wrap;
+
+        & .header-community {
+            flex-basis: 100%;
+            padding: 40px;
+            background-color: var(--white);
+            border-radius: 8px 8px 0 0;
+
+            & h1 {
+                color: var(--cyan);
+                font-size: 2em;
+                padding-bottom: 20px;
+            }
+
+            & h2 {
+                color: var(--bright-yellow);
+                padding-bottom: 20px;
+            }
+
+            & p {
+                color: var(--grayish-blue);
+            }
+        }
+
+        & .plan-sign {
+            flex-basis: 50%;
+            padding: 40px;
+            color: var(--white);
+            background-color: var(--cyan);
+            border-radius: 0 0 0 8px;
+
+            & h2 {
+                font-size: 1.3em;
+                margin-bottom: 20px;
+            }
+
+            & a.btn-signup {
+                display: block;
+                width: 100%;
+                background-color: var(--bright-yellow);
+                text-align: center;
+                padding: 12px 0;
+                margin-top: 30px;
+                border-radius: 4px;
+                color: var(--white);
+                text-decoration: none;
+            }
+        }
+
+        & .about-us {
+            flex-basis: 50%;
+            padding-top: 40px;
+            padding-left: 40px;
+            padding-right: 100px;
+            background-color: var(--light-cyan);
+            color: var(--light-gray);
+            border-radius: 0 0 8px 0;
+
+            & h2 {
+                font-size: 1.2em;
+                padding-bottom: 15px;
+                color: var(--white);
+            }
+
+            & p {
+                font-size: .875em;
+            }
+        }
+    }
+}
